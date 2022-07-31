@@ -3,6 +3,7 @@
 2. 不要在拍卖会举办期间关闭服务器，拍卖会内的商品不会永久化储存。  
 3. 为拍卖行创建region时，请不要让它与任何其他region发生重叠。
 4. 尽量将region圈大一点，并且不要把展示物品设置在边缘，因为玩家在边缘可以将物品吸起来。
+5. /auction admin start 之后，会将Storehouse中上架的全部物品自动加入拍卖行队列中。
 ###  拍卖行建立步骤
 1. 使用WorldGuard插件创建一个region。√  
 2. 站在该region内，使用/auction setup enable 使这个region启用为拍卖行。√  
